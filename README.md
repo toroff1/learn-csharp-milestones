@@ -48,8 +48,8 @@ Below is a list of tasks that correspond roughly to the "Take Action" sections o
 ## Chapter 1
 Getting to Know Your Environment (9–21)
 
-- [ ] ✏️ Open the reference manual for any component from inside Unity. Paste the link: [link](file:///C:/Program%20Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Documentation/en/Manual/class-MeshCollider.html)
-- [ ] ✏️ Find the button to jump to the scripting reference the any reference manual page. Paste the link: [link](file:///C:/Program%20Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Documentation/en/ScriptReference/MonoBehaviour.html)
+- [ ] ✏️ Open the reference manual for any component from inside Unity. Paste the link: [file:///C:/Program%20Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Documentation/en/Manual/class-MeshCollider.html](file:///C:/Program%20Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Documentation/en/Manual/class-MeshCollider.html)
+- [ ] ✏️ Find the button to jump to the scripting reference the any reference manual page. Paste the link: [file:///C:/Program%20Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Documentation/en/ScriptReference/MonoBehaviour.html](file:///C:/Program%20Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Documentation/en/ScriptReference/MonoBehaviour.html)
 - [ ] ✏️ Search for the `Strings` class in [Microsoft's C# documents](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/). Paste the link: [link](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/strings/)
 
 
