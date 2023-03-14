@@ -85,21 +85,21 @@ A private variable on the other hand is meant for use internally inside of a scr
 ## Chapter 4
 Control Flow and Collection Types (65–93)
 
-- [ ] Update Assets/Scripts/LearningCurve.cs
-	- [ ] Conditionals
-		- [ ] Write `if`, `else if`, and `else` statements
-		- [ ] Test for `true` and `!true` in a conditional
-		- [ ] Write a nested `if` statement
-		- [ ] Write a `switch` statement
-	- [ ] Collections
-		- [ ] ✏️ What will `arr[1]` return from this array `int[] arr = {'red','green','blue'};` ? : **??**
-		- [ ] Write an Array of the type `int[]`
-		- [ ] Write a List of the type `List<string>`
-		- [ ] Write a Dictionary of the type `Dictionary<string, int>`
-	- [ ] Loops
-		- [ ] Use a `for` loop to print a specific index of a `List<string>`
-		- [ ] Use a `foreach` loop to print all indexes of a `List<string>`
-		- [ ] Use a `foreach` loop to print the `KeyValuePair.Key` and `KeyValuePair.Value` of all indexes of a `Dictionary<string, int>`
+- [X] Update Assets/Scripts/LearningCurve.cs
+	- [X] Conditionals
+		- [X] Write `if`, `else if`, and `else` statements
+		- [X] Test for `true` and `!true` in a conditional
+		- [X] Write a nested `if` statement
+		- [X] Write a `switch` statement
+	- [X] Collections
+		- [X] ✏️ What will `arr[1]` return from this array `int[] arr = {'red','green','blue'};` ? : It will return green.
+		- [X] Write an Array of the type `int[]`
+		- [X] Write a List of the type `List<string>`
+		- [X] Write a Dictionary of the type `Dictionary<string, int>`
+	- [X] Loops
+		- [X] Use a `for` loop to print a specific index of a `List<string>`
+		- [X] Use a `foreach` loop to print all indexes of a `List<string>`
+		- [X] Use a `foreach` loop to print the `KeyValuePair.Key` and `KeyValuePair.Value` of all indexes of a `Dictionary<string, int>`
 
 
 
@@ -107,7 +107,7 @@ Control Flow and Collection Types (65–93)
 Working with Classes, Structs, and OOP (94–119)
 
 - Classes
-	- [ ] ✏️ Explain the difference between reference and value type variables: **??**
+	- [X] ✏️ Explain the difference between reference and value type variables: A reference type variable is a variable where you only look at the value of another value type variable. This means if you change that value, it changes the value of the value type variable underneath. A value type variable is more traditional, but can be less memory efficient.
 	- [ ] Create Assets/Scripts/Character.cs
 		- [ ] Create a `Character` class
 		- [ ] Create `string` and `int` fields inside the Character class
@@ -158,7 +158,7 @@ Getting Your Hands Dirty with Unity (120–148)
 Movement, Camera Controls, and Collisions (149–175)
 
 - [ ] Movement
-	- [ ] Understand the difference between a "position vector" and a "direction vector"
+	- [X] Understand the difference between a "position vector" and a "direction vector"
 	- [ ] Capture keyboard input in C#
 	- [ ] Move and rotate a game object using `Translate()` and `Rotate()` with direction vectors
 - [ ] Camera Controls
