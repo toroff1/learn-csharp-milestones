@@ -58,9 +58,9 @@ The Building Blocks of Programming (22–37)
 
 - [ ] Open the Unity project contained within this repo
 - [ ] Create Assets/Scripts/LearningCurve.cs
-	- [ ] Create C# variables with typeof `int`, `float`, `string`, and `bool`
-	- [ ] Add a single line, multi line, and summary comment to LearningCurve.cs
-	- [ ] Run the code in LearningCurve by attaching it to the Main Camera GameObject
+	- [X] Create C# variables with typeof `int`, `float`, `string`, and `bool`
+	- [X] Add a single line, multi line, and summary comment to LearningCurve.cs
+	- [X] Run the code in LearningCurve by attaching it to the Main Camera GameObject
 
 
 ## Chapter 3
