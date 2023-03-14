@@ -48,16 +48,19 @@ Below is a list of tasks that correspond roughly to the "Take Action" sections o
 ## Chapter 1
 Getting to Know Your Environment (9–21)
 
-- [ ] ✏️ Open the reference manual for any component from inside Unity. Paste the link: [file:///C:/Program%20Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Documentation/en/Manual/class-MeshCollider.html](file:///C:/Program%20Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Documentation/en/Manual/class-MeshCollider.html)
-- [ ] ✏️ Find the button to jump to the scripting reference the any reference manual page. Paste the link: [file:///C:/Program%20Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Documentation/en/ScriptReference/MonoBehaviour.html](file:///C:/Program%20Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Documentation/en/ScriptReference/MonoBehaviour.html)
-- [ ] ✏️ Search for the `Strings` class in [Microsoft's C# documents](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/). Paste the link: [link](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/strings/)
+The below links are just references to files on my system, but I think that it's fine because I happen to have the documentation locally installed.
+
+- [X] ✏️ Open the reference manual for any component from inside Unity. Paste the link: [file:///C:/Program%20Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Documentation/en/Manual/class-MeshCollider.html](file:///C:/Program%20Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Documentation/en/Manual/class-MeshCollider.html)
+- [X] ✏️ Find the button to jump to the scripting reference the any reference manual page. Paste the link: [file:///C:/Program%20Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Documentation/en/ScriptReference/MonoBehaviour.html](file:///C:/Program%20Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Documentation/en/ScriptReference/MonoBehaviour.html)
+- [X] ✏️ Search for the `Strings` class in [Microsoft's C# documents](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/). Paste the link: [link](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/strings/)
+
 
 
 ## Chapter 2
 The Building Blocks of Programming (22–37)
 
-- [ ] Open the Unity project contained within this repo
-- [ ] Create Assets/Scripts/LearningCurve.cs
+- [X] Open the Unity project contained within this repo
+- [X] Create Assets/Scripts/LearningCurve.cs
 	- [X] Create C# variables with typeof `int`, `float`, `string`, and `bool`
 	- [X] Add a single line, multi line, and summary comment to LearningCurve.cs
 	- [X] Run the code in LearningCurve by attaching it to the Main Camera GameObject
@@ -66,16 +69,17 @@ The Building Blocks of Programming (22–37)
 ## Chapter 3
 Diving into Variables, Types, and Methods (38–64)
 
-- [ ] Update Assets/Scripts/LearningCurve.cs
-	- [ ] Variables
-		- [ ] Use access modifiers to make your variables explicitly `public` and `private`
-		- [ ] Use `Debug.Log` and `Debug.LogFormat` to log your variables to the console
-		- [ ] Concatenate strings using the `+` operator, and the string interpolation method `$`
-	- [ ] Methods
-		- [ ] Define a simple method with parameters
-		- [ ] Add a return type and return some data from a method
-		- [ ] Use data returned from a method
-- [ ] ✏️ Explain some differences between public and private variables: **??**
+- [X] Update Assets/Scripts/LearningCurve.cs
+	- [X] Variables
+		- [X] Use access modifiers to make your variables explicitly `public` and `private`
+		- [X] Use `Debug.Log` and `Debug.LogFormat` to log your variables to the console
+		- [X] Concatenate strings using the `+` operator, and the string interpolation method `$`
+	- [X] Methods
+		- [X] Define a simple method with parameters
+		- [X] Add a return type and return some data from a method
+		- [X] Use data returned from a method
+- [X] ✏️ Explain some differences between public and private variables: A public variable can be accessed by other scripts, and can also be changed from the inspector window in Unity.
+A private variable on the other hand is meant for use internally inside of a script and isn't accessed from outside of the script.
 
 
 ## Chapter 4
