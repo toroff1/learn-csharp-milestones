@@ -10,10 +10,21 @@ public class LearningCurve : MonoBehaviour
     private float donutsEaten = 100.5f;
     public string name = "Jeremy Elbertson";
     public bool isAlive = true;
+    private Transform camTransform;
+
+    public GameObject directionLight;
+    private Transform lightTransform;
 
     // Start is called before the first frame update
     void Start()
     {
+
+        camTransform = this.GetComponent<Transform>();
+        Debug.Log(camTransform.localPosition);
+
+        directionLight = GameObject.Find("Directional Light");
+        lightTransform = directionLight.GetComponent<Transform>();
+        Debug.Log(lightTransform.localPosition);
 
         Debug.Log("Hello");
         Debug.LogFormat("My name is {0}.", name);
@@ -38,6 +49,17 @@ public class LearningCurve : MonoBehaviour
         /// 
         /// 
         /// </summary>
+        /// 
+
+      
+
+    TestConditionals();
+        TestCollectionsAndLoops();
+
+        SpawnCharactersAndWeapons();
+
+
+
 
     }
 
@@ -103,7 +125,7 @@ public class LearningCurve : MonoBehaviour
 
     void TestCollectionsAndLoops()
     {
-        int[] myDominos = [1, 6, 3, 4];
+        int[] myDominos = {1, 6, 3, 4};
 
         List<string> myDominosNames = new List<string>();
         myDominosNames.Add("joe");
@@ -135,6 +157,25 @@ public class LearningCurve : MonoBehaviour
             Debug.Log(match.Key);
             Debug.Log(match.Value);
         }
+
+    }
+
+    void SpawnCharactersAndWeapons()
+    {
+        Character hero = new Character("Armin", 1);
+        Character heroine = new Character("Martha", 1);
+
+        Debug.LogFormat("{0}, Level {1}", hero.charName, hero.level);
+        Debug.LogFormat("{0}, Level {1}", heroine.charName, heroine.level);
+
+        Weapon huntingBow = new Weapon("Hunting Bow", 13);
+        Weapon warBow = new Weapon("War Bow", 16);
+
+        Debug.LogFormat("{0}, Damage: {1}", huntingBow.weaponName, huntingBow.damage);
+        Debug.LogFormat("{0}, Damage: {1}", warBow.weaponName, warBow.damage);
+
+        Paladin knight = new Paladin("James", 3, warBow);
+        knight.PrintStatsInfo();
 
     }
 
